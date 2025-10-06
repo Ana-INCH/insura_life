@@ -1,0 +1,61 @@
+/* Sección Hero */
+.hero {
+    text-align: center;
+    padding: 2em 1em;
+    background: #3949ab;
+    color: #fff;
+}
+
+.hero h2 {
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.btn {
+    background: #ffca28;
+    color: #000;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Sección Features y Acerca de */
+.features,
+.about {
+    padding: 2em 1em;
+    background: #fff;
+    margin: 1em 0;
+}
+
+.features h3,
+.about h3 {
+    margin-top: 0;
+}
+
+/* Estilos para la sección de banner */
+.banner {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+
+    img {
+        width: 1250px;
+        height: 300px;
+        display: block;
+    }
+}
